@@ -62,7 +62,7 @@ public final class MoneyModule extends Module {
     @SuppressWarnings("deprecation")
     public Version version() {
         final ClassLoader loader = MoneyModule.class.getClassLoader();
-        return VersionUtil.mavenVersionFor(loader, "org.zalando", "jackson-datatype-money");
+        return VersionUtil.mavenVersionFor(loader, "com.fasterxml.jackson.datatype.money", "jackson-datatype-money");
     }
 
     @Override
